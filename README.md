@@ -1,7 +1,7 @@
 # Predict Weather App
 
-This project can be used as a starting point to create your own Vaadin application with Spring Boot.
-It contains all the necessary configuration and some placeholder files to get you started.
+<!-- This project can be used as a starting point to create your own Vaadin application with Spring Boot.
+It contains all the necessary configuration and some placeholder files to get you started. -->
 
 ## Running the application
 
@@ -48,4 +48,14 @@ Once the JAR file is built, you can run it using
 
 ## Screenshots
 View all data in a grid
-![alt text]("https://github.com/alifskymind/aphileus/tree/main/assets/Screenshot 1.png")
+
+![image](https://user-images.githubusercontent.com/104175839/164579071-0c4436fb-c924-4c48-a20d-b134c671f077.png)
+
+View chart for all devices
+
+![image](https://user-images.githubusercontent.com/104175839/164578928-d8acd05f-e826-4dc5-b5f2-9816eb98c29a.png)
+
+View chart for certain device
+
+![image](https://user-images.githubusercontent.com/104175839/164579086-922aa767-09a8-496f-ac2b-714934b3b008.png)
+
