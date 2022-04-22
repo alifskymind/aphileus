@@ -48,4 +48,4 @@ Once the JAR file is built, you can run it using
 
 ## Screenshots
 View all data in a grid
-![alt text](https://github.com/alifskymind/aphileus/tree/main/assets/Screenshot1.png)
+![alt text](https://github.com/alifskymind/aphileus/tree/main/assets/Screenshot2.png?raw=true)
