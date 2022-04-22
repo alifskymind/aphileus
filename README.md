@@ -49,13 +49,27 @@ Once the JAR file is built, you can run it using
 ## Screenshots
 View all data in a grid
 
-![image](https://user-images.githubusercontent.com/104175839/164579071-0c4436fb-c924-4c48-a20d-b134c671f077.png)
+![image](https://user-images.githubusercontent.com/104175839/164593460-146310dc-a33f-4aae-8bd1-48242c6d34b4.png)
 
 View chart for all devices
 
-![image](https://user-images.githubusercontent.com/104175839/164578928-d8acd05f-e826-4dc5-b5f2-9816eb98c29a.png)
+![image](https://user-images.githubusercontent.com/104175839/164593432-75415c05-7cb8-4f99-9690-294c56526b4a.png)
 
 View chart for certain device
 
-![image](https://user-images.githubusercontent.com/104175839/164579086-922aa767-09a8-496f-ac2b-714934b3b008.png)
+![image](https://user-images.githubusercontent.com/104175839/164593449-c16ddb28-7bf9-49ea-8519-28f8e36f7228.png)
+
+Login page
+
+![image](https://user-images.githubusercontent.com/104175839/164593518-c1925f7b-6650-437e-b7ac-2ac333c38ca9.png)
+
+Create new aaccount page
+
+![image](https://user-images.githubusercontent.com/104175839/164593542-08e29963-fc3d-4b5f-9c88-183f50e59e1b.png)
+
+User can upload new data
+
+![image](https://user-images.githubusercontent.com/104175839/164593564-539a5fba-29c1-4f34-9140-956684013e40.png)
+
+
 
