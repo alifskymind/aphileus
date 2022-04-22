@@ -63,7 +63,7 @@ Login page
 
 ![image](https://user-images.githubusercontent.com/104175839/164593518-c1925f7b-6650-437e-b7ac-2ac333c38ca9.png)
 
-Create new aaccount page
+Create new account page
 
 ![image](https://user-images.githubusercontent.com/104175839/164593542-08e29963-fc3d-4b5f-9c88-183f50e59e1b.png)
 
