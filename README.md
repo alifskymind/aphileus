@@ -87,3 +87,8 @@ View predicted temperature in a chart
 Compares predicted temperatures and original temperatures
 
 ![image](https://user-images.githubusercontent.com/104175839/165236885-fee24da8-935d-4a44-8109-68225c40926c.png)
+
+Make your own prediction
+
+![image](https://user-images.githubusercontent.com/104175839/165356106-5339158c-034f-45e7-ba8e-e7fff72eece5.png)
+
