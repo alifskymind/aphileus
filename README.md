@@ -51,29 +51,39 @@ Once the JAR file is built, you can run it using
 - Report issues, create pull requests in [GitHub](https://github.com/vaadin/platform).
 
 ## Screenshots
-View all data in a grid
 
-![image](https://user-images.githubusercontent.com/104175839/164593460-146310dc-a33f-4aae-8bd1-48242c6d34b4.png)
+Main page
 
-View chart for all devices
-
-![image](https://user-images.githubusercontent.com/104175839/164593432-75415c05-7cb8-4f99-9690-294c56526b4a.png)
-
-View chart for certain device
-
-![image](https://user-images.githubusercontent.com/104175839/164593449-c16ddb28-7bf9-49ea-8519-28f8e36f7228.png)
+![image](https://user-images.githubusercontent.com/104175839/165236311-64e02a2f-77cd-4e17-bae0-9ce097f43981.png)
 
 Login page
 
-![image](https://user-images.githubusercontent.com/104175839/164593518-c1925f7b-6650-437e-b7ac-2ac333c38ca9.png)
+![image](https://user-images.githubusercontent.com/104175839/165236346-4f2befc8-e030-4445-8ad8-98eff0c6da06.png)
 
-Create new account page
+View all data in a grid
 
-![image](https://user-images.githubusercontent.com/104175839/164593542-08e29963-fc3d-4b5f-9c88-183f50e59e1b.png)
+![image](https://user-images.githubusercontent.com/104175839/165236411-cffc3a07-348e-4532-a2f7-8b09ed2fd456.png)
 
-User can upload new data
+Upload new data
 
-![image](https://user-images.githubusercontent.com/104175839/164593564-539a5fba-29c1-4f34-9140-956684013e40.png)
+![image](https://user-images.githubusercontent.com/104175839/165236495-980a6686-bde2-4752-ab73-fdaf8ccb42a6.png)
 
+View chart for all devices
 
+![image](https://user-images.githubusercontent.com/104175839/165236568-cff761d3-591f-42f3-bd36-1d3fb1b51769.png)
 
+View chart for certain device
+
+![image](https://user-images.githubusercontent.com/104175839/165236626-f753d815-9310-4af9-ab73-7f7ec9e15bad.png)
+
+View predicted temperature in a grid
+
+![image](https://user-images.githubusercontent.com/104175839/165236807-172f4b5d-1512-4140-b7ba-33e5015db66b.png)
+
+View predicted temperature in a chart
+
+![image](https://user-images.githubusercontent.com/104175839/165236841-5fb3606c-32be-413d-b5db-e324d08da45d.png)
+
+Compares predicted temperatures and original temperatures
+
+![image](https://user-images.githubusercontent.com/104175839/165236885-fee24da8-935d-4a44-8109-68225c40926c.png)
