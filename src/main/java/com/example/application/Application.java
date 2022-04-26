@@ -18,7 +18,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
  */
 @SpringBootApplication
 @NpmPackage(value = "@fontsource/roboto", version = "4.5.0")
-@Theme(value = "aphileus", variant = Lumo.DARK)
+@Theme(value = "aphileus", variant = Lumo.LIGHT)
 @PWA(name = "aphileus", shortName = "aphileus", offlineResources = {})
 @NpmPackage(value = "line-awesome", version = "1.3.0")
 public class Application extends SpringBootServletInitializer implements AppShellConfigurator {
