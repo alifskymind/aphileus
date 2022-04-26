@@ -31,8 +31,8 @@ public class HomeView extends VerticalLayout {
 
     public HomeView() {
 
-        Image image = new Image("src/main/resources/META-INF/resources/images/thunder.jpg", "thunder.jpg");
-        add(image);
+        //Image image = new Image("src/main/resources/META-INF/resources/images/thunder.jpg", "thunder.jpg");
+        //add(image);
 
         VerticalLayout verticalLayout = new VerticalLayout();
 

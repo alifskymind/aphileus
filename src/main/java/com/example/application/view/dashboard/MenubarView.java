@@ -1,7 +1,10 @@
 package com.example.application.view.dashboard;
 
 import com.example.application.view.addNewData.AddNewDataView;
+//import com.example.application.view.chart.*;
 import com.example.application.view.chart.*;
+import com.example.application.view.prediction.CustomPrediction;
+import com.example.application.view.table.PredictedTableView;
 import com.example.application.view.table.TableView;
 import com.vaadin.flow.component.UI;
 import com.vaadin.flow.component.avatar.Avatar;
@@ -138,9 +141,16 @@ public class MenubarView extends VerticalLayout {
 
 		MenuItem predictionMenu = menuBar.addItem("Make predictions");
 		SubMenu predictionSubMenu = predictionMenu.getSubMenu();
-		MenuItem ffnn = predictionSubMenu.addItem("Ffnn");
-		MenuItem cnn = predictionSubMenu.addItem("Cnn");
-		MenuItem rnn = predictionSubMenu.addItem("Rnn");
+		MenuItem predictedGrid = predictionSubMenu.addItem("Predicted temperature in grid");
+		predictedGrid.addClickListener( e -> UI.getCurrent().navigate(PredictedTableView.class));
+		MenuItem predictedChart = predictionSubMenu.addItem("Predicted temperature in chart");
+		predictedChart.addClickListener( e -> UI.getCurrent().navigate(SplinePredictedChartView.class));
+		MenuItem comparedChart = predictionSubMenu.addItem("Comparing original temperatures and predicted temperatures");
+		comparedChart.addClickListener( e -> UI.getCurrent().navigate(SplineComparedChartView.class));
+
+		MenuItem customDate = predictionSubMenu.addItem("Choose custom date for temperature prediction");
+		customDate.addClickListener( e -> UI.getCurrent().navigate(CustomPrediction.class));
+
 
 		//menuBar.addItem("View");
 		//menuBar.addItem("Edit");

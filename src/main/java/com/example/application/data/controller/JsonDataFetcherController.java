@@ -186,6 +186,11 @@ public class JsonDataFetcherController {
 		return Collections.unmodifiableList(data);
 	}
 
+	public static List<TemperatureData> fetchPredictedTemperature() {
+		List<TemperatureData> data = readValueData("predicted-2column.json");
+		return Collections.unmodifiableList(data);
+	}
+
 	private static List<TemperatureData> readValueData(String filename) {
 
 		//JsonData jsonData = readJsonDataFrom(filename);

@@ -38,10 +38,10 @@ public class LoginView extends VerticalLayout {
 		//loginForm.setForgotPasswordButtonVisible(false);
 		//add(loginForm);
 
-		Button loginButton = new Button("Login with Google");
-		loginButton.addThemeVariants(ButtonVariant.LUMO_PRIMARY);
-		loginButton.addClickListener( e -> UI.getCurrent().navigate(OAUTH_URL));
-		add(loginButton);
+		//Button loginButton = new Button("Login with Google");
+		//loginButton.addThemeVariants(ButtonVariant.LUMO_PRIMARY);
+		//loginButton.addClickListener( e -> UI.getCurrent().navigate(OAUTH_URL));
+		//add(loginButton);
 
 		Button homeButton = new Button("Back to home page");
 		homeButton.addThemeVariants(ButtonVariant.LUMO_TERTIARY);
