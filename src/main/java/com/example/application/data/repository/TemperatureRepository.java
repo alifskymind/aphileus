@@ -1,7 +1,6 @@
 package com.example.application.data.repository;
 
 import com.example.application.data.entity.Temperature;
-import com.example.application.data.entity.TemperatureBackup;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

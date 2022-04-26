@@ -1,7 +1,6 @@
 package com.example.application.data.service;
 
 import com.example.application.data.entity.Temperature;
-import com.example.application.data.entity.TemperatureBackup;
 import com.example.application.data.repository.TemperatureRepository;
 import org.springframework.stereotype.Service;
 

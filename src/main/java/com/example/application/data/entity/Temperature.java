@@ -16,8 +16,8 @@ public class Temperature {
 	@Column(name = "device_uuid")
 	private String deviceUUID;
 
-	@Column(name = "column_two")
-	private String columnTwo;
+	@Column(name = "data_type")
+	private String dataType;
 
 	@Column(name = "unix_time_stamps")
 	private String unixTimeStamps;
@@ -31,9 +31,9 @@ public class Temperature {
 	public Temperature() {
 	}
 
-	public Temperature(String deviceUUID, String columnTwo, String unixTimeStamps, String dateTime, Double temperatureInC) {
+	public Temperature(String deviceUUID, String dataType, String unixTimeStamps, String dateTime, Double temperatureInC) {
 		this.deviceUUID = deviceUUID;
-		this.columnTwo = columnTwo;
+		this.dataType = dataType;
 		this.unixTimeStamps = unixTimeStamps;
 		this.dateTime = dateTime;
 		this.temperatureInC = temperatureInC;
@@ -63,12 +63,12 @@ public class Temperature {
 		this.unixTimeStamps = unixTimeStamps;
 	}
 
-	public String getColumnTwo() {
-		return columnTwo;
+	public String getDataType() {
+		return dataType;
 	}
 
-	public void setColumnTwo(String columnTwo) {
-		this.columnTwo = columnTwo;
+	public void setDataType(String dataType) {
+		this.dataType = dataType;
 	}
 
 	public String getDeviceUUID() {
@@ -105,7 +105,7 @@ public class Temperature {
 		return getClass().getSimpleName() + "(" +
 				"id = " + id + ", " +
 				"deviceUUID = " + deviceUUID + ", " +
-				"columnTwo = " + columnTwo + ", " +
+				"dataType = " + dataType + ", " +
 				"unixTimeStamps = " + unixTimeStamps + ", " +
 				"dateTime = " + dateTime + ", " +
 				"temperatureInC = " + temperatureInC + ")";

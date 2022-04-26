@@ -16,9 +16,9 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
  *
  */
 @SpringBootApplication
-@NpmPackage(value = "@fontsource/merriweather", version = "4.5.0")
-@Theme(value = "predictweatherapp")
-@PWA(name = "Predict Weather App", shortName = "Predict Weather App", offlineResources = {})
+@NpmPackage(value = "@fontsource/roboto", version = "4.5.0")
+@Theme(value = "aphileus")
+@PWA(name = "aphileus", shortName = "aphileus", offlineResources = {})
 @NpmPackage(value = "line-awesome", version = "1.3.0")
 public class Application extends SpringBootServletInitializer implements AppShellConfigurator {
 

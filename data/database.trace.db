@@ -1,0 +1,6 @@
+2022-04-22 11:25:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TEMPERATURE" not found (this database is empty); SQL statement:
+select temperatur0_.id as id1_1_, temperatur0_.data_type as data_typ2_1_, temperatur0_.date_time as date_tim3_1_, temperatur0_.device_uuid as device_u4_1_, temperatur0_.temperature_in_c as temperat5_1_, temperatur0_.unix_time_stamps as unix_tim6_1_ from temperature temperatur0_ [42104-212]
+2022-04-22 11:27:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TEMPERATURE" not found (this database is empty); SQL statement:
+select temperatur0_.id as id1_1_, temperatur0_.data_type as data_typ2_1_, temperatur0_.date_time as date_tim3_1_, temperatur0_.device_uuid as device_u4_1_, temperatur0_.temperature_in_c as temperat5_1_, temperatur0_.unix_time_stamps as unix_tim6_1_ from temperature temperatur0_ [42104-212]

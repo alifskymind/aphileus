@@ -2,7 +2,7 @@
   "name": "no-name",
   "license": "UNLICENSED",
   "dependencies": {
-    "@fontsource/merriweather": "4.5.0",
+    "@fontsource/roboto": "4.5.0",
     "@polymer/iron-icon": "3.0.1",
     "@polymer/iron-iconset-svg": "3.0.1",
     "@polymer/iron-list": "3.1.0",
@@ -246,12 +246,12 @@
     "construct-style-sheets-polyfill": "$construct-style-sheets-polyfill",
     "date-fns": "$date-fns",
     "lit": "$lit",
-    "@fontsource/merriweather": "$@fontsource/merriweather",
+    "@fontsource/roboto": "$@fontsource/roboto",
     "line-awesome": "$line-awesome"
   },
   "vaadin": {
     "dependencies": {
-      "@fontsource/merriweather": "4.5.0",
+      "@fontsource/roboto": "4.5.0",
       "@polymer/iron-icon": "3.0.1",
       "@polymer/iron-iconset-svg": "3.0.1",
       "@polymer/iron-list": "3.1.0",
@@ -379,6 +379,6 @@
       "workbox-core": "6.5.0",
       "workbox-precaching": "6.5.0"
     },
-    "hash": "2e52f5cb40bd154915fef2278bbecb3c58f94479dfddc9862004b5dc404e7a6c"
+    "hash": "3bd3850e417c176ed7ca70d07621fdf40a07688a9f3cb29117f7dba078d9ff21"
   }
 }

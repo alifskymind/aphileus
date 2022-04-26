@@ -1,9 +1,9 @@
 package com.example.application.data.entity;
 
-import java.util.UUID;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
+import java.util.UUID;
 
 @MappedSuperclass
 public abstract class AbstractEntity {
