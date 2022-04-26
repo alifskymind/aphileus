@@ -5,6 +5,8 @@ It contains all the necessary configuration and some placeholder files to get yo
 
 Aphileus: a Predict the Temperature App
 
+This is a web application that can be used to predict the future temperatures. It also shows the previous temperatures in a detailed charts.
+
 ## Running the application
 
 The project is a standard Maven project. To run it from the command line,
