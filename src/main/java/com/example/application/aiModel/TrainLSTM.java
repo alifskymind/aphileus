@@ -43,7 +43,7 @@ public class TrainLSTM {
 		System.out.println(startTime);
 		System.out.println("*****************************************************************************************");
 
-		File baseDir = new ClassPathResource("temperatureTest").getFile();
+		File baseDir = new ClassPathResource("temperatureMultiple").getFile();
 
 		//int miniBatchSize = 32;
 		int miniBatchSize = 1000000;
@@ -52,13 +52,13 @@ public class TrainLSTM {
 
 		// ----- Load the training data -----
 		SequenceRecordReader trainReader = new CSVSequenceRecordReader(0, ",");
-		trainReader.initialize(new NumberedFileInputSplit(baseDir.getAbsolutePath() + "/temperature_%d.csv", 0, 1000));
+		trainReader.initialize(new NumberedFileInputSplit(baseDir.getAbsolutePath() + "/temperature_%d.csv", 0, 335219));
 
 		//For regression, numPossibleLabels is not used. Setting it to -1 here
 		DataSetIterator trainIter = new SequenceRecordReaderDataSetIterator(trainReader, miniBatchSize, -1, 1, true);
 
 		SequenceRecordReader testReader = new CSVSequenceRecordReader(0, ",");
-		testReader.initialize(new NumberedFileInputSplit(baseDir.getAbsolutePath() + "/temperature_%d.csv", 0, 1000));
+		testReader.initialize(new NumberedFileInputSplit(baseDir.getAbsolutePath() + "/temperature_%d.csv", 0, 335219));
 		DataSetIterator testIter = new SequenceRecordReaderDataSetIterator(testReader, miniBatchSize, -1, 1, true);
 
 		//Create data set from iterator here since we only have a single data set
@@ -232,7 +232,7 @@ public class TrainLSTM {
 		System.out.println(predicted);
 
 		System.out.println("Saving model...");
-		File locationToSave = new File("dl4j-labs/src/main/resources/trainedTemperatureLSTM.zip");
+		File locationToSave = new File("src/main/resources/trainedTemperatureLSTM.zip");
 
 		//save updater
 		boolean saveUpdater = true;
@@ -287,11 +287,11 @@ public class TrainLSTM {
 		double[] flattenedArray = flattenedDataBuffer.asDouble();
 		System.out.println(Arrays.toString(flattenedArray));
 		Gson gson = new Gson();
-		gson.toJson(flattenedArray, new FileWriter("C:\\Users\\acynt\\Desktop\\cdle-traininglabs-main\\dl4j-labs\\src\\main\\resources\\predicted.json"));
+		gson.toJson(flattenedArray, new FileWriter("C:\\Users\\acynt\\Desktop\\predicted.json"));
 
 		System.out.println("Saving INDArray to file...");
 
-		FileWriter writer = new FileWriter("C:\\Users\\acynt\\Desktop\\cdle-traininglabs-main\\dl4j-labs\\src\\main\\resources\\predicted.txt");
+		FileWriter writer = new FileWriter("C:\\Users\\acynt\\Desktop\\predicted.txt");
 		int len = flattenedArray.length;
 		for (int i = 0; i < len; i++) {
 			writer.write(flattenedArray[i] + "\n"+ "");
