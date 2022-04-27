@@ -298,16 +298,6 @@ public class TrainLSTM {
 		}
 		writer.close();
 
-		//System.out.println("Create plot with data...");
-
-		//Create plot with out data
-		//XYSeriesCollection c = new XYSeriesCollection();
-		//createSeries(c, trainData.getFeatures(), 0, "Train data");
-		//createSeries(c, testData.getFeatures(), 99, "Actual test data");
-		//createSeries(c, predicted, 100, "Predicted test data");
-		//
-		//plotDataset(c);
-
 		System.out.println("----- Example Complete -----");
 
 		LocalTime endTime2 = LocalTime.now();
